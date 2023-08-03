@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/thisIsAnID"
+        android:orientation="vertical"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:background="@color/colorRobotBackground">
+
+<!--        <Button-->
+<!--            android:id="@+id/btn_socket_conn"-->
+<!--            android:text="CO"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"/>-->
+
+        <Button
+            android:id="@+id/btn_open_TCB"
+            android:text="TO"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/start"
+            android:text="ST"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/stop"
+            android:text="SO"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+<!--        <Button-->
+<!--            android:id="@+id/btn_detect"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="DT" />-->
+
+                <Button
+                    android:id="@+id/btn_close_to"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CT" />
+
+    </LinearLayout>
+</FrameLayout>
